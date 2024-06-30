@@ -1,0 +1,4 @@
+name: VideoPlayerPlugin
+version: '${project.version}'
+main: mumeinosato.videoplayerplugin.VideoPlayerPlugin
+api-version: '1.21'
