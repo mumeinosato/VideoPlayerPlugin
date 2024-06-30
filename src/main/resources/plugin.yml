@@ -2,3 +2,14 @@ name: VideoPlayerPlugin
 version: '${project.version}'
 main: mumeinosato.videoplayerplugin.VideoPlayerPlugin
 api-version: '1.21'
+authors: [mumeinosato,Kamesuta]
+
+permissions:
+  vdisplay.*:
+    children:
+      vdisplay.display: true
+      vdisplay.player: true
+  vdisplay.display:
+    default: op
+  vdisplay.player:
+    default: op
